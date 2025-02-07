@@ -29,16 +29,84 @@ height: 18rem;
     margin-left: 1rem;
 }
 .button1 a{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
     text-decoration-line: none;
 }
 .button1 img{
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 .logospace img {
     margin-left: 1rem;
     filter: invert(100%) grayscale(75%);
     width: 10rem;
+}
+
+/* PLAYLISTS*/ 
+
+.library{       
+    margin-top: 2rem; 
+    align-items: center; /* Alinha verticalmente */ 
+    padding: 1.5rem;
+    background-color: #242525;
+    border-radius: .8rem;
+    width: 30rem;
+    height: 33rem;
+}
+
+.library h1{
+    color: whitesmoke;
+    margin-top: 1.5rem;
+    margin-bottom: -1rem;
+    font-size: 1.6rem;
+}
+.library p{
+    color: whitesmoke;
+    font-size: 1.3rem;
+}
+.boxplay{
+    display: inline-block;
+    text-align: center;
+    width: 25rem;
+    height: 15rem;
+    border-radius: .8rem;
+    background-color: #373838;
+}
+.button2{
+    margin-top: 1.5rem;
+    display: inline-block; /* Ou block */
+    padding: 1rem 3rem; /* Tamanho do botão */
+    background-color: #000000; /* Cor de fundo */
+    border: none; /* Sem borda */
+    border-radius: 2.5rem; /* Bordas arredondadas */
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.button2 a{
+    color: whitesmoke;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.but-lang{
+    display: flex;
+    margin-left: 2.5rem;
+    margin-top: 6.5rem;
+    display: flex;
+    width: 20rem;
+    height: auto;
+    border: solid whitesmoke; 
+    border-radius: 2.5rem; /* Bordas arredondadas */
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.but-lang img {
+    width: 3rem;
+    height: 3rem;
+}
+.but-lang a{
+    color: whitesmoke;
+    font-weight: 600;
+    text-decoration: none;
 }
