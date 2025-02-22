@@ -202,8 +202,9 @@ height: 18rem;
 /*caixa musicas*/
 
 .musicbox{ 
-overflow-x: hidden;
-overflow-y:visible;
+overflow: auto; 
+scrollbar-width: none;  
+-ms-overflow-style: none; 
 background-color: #242525;
 height: 42rem;
 width: 85rem;
@@ -217,7 +218,6 @@ border-radius: .8rem;
 }
 
 .gridmusic{
-    overflow-x: hidden;
     display: grid;
     grid-template-columns:repeat(5, 1fr);
     gap: 1rem;
